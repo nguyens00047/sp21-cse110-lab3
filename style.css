@@ -1,9 +1,11 @@
 #to-do-list {
   text-align: center; /* centers text*/
   color: green;
-  border-style: solid;
+  border-style:dotted;
   border-width: thick;
   border-color: rgb(0,100,0);
+  position:relative;
+  display: fixed;
 }
 
 h1 {
@@ -15,11 +17,63 @@ h1 {
   max-width: 150px;
   max-height: 150px;
   border: dashed red;
-  padding: 1em;
+  padding: 50px;
+  border: blanchedalmond;
 }
   
 h2 {
-  color: rgb(100,200,150);
+  color: rgb(100,300,150);
+  background-color: rgb(45, 49, 45);
+  border-style:dotted;
+  position:relative;
+  text-decoration:darkgrey;
+  border-radius:0px;
+  text-align:justify;
+  flex: 0px;
+}
+
+h3 {
+  color:rgb(10,300,300);
+  color:hsl(200,200,20);
+  background-color: rgb(245, 233, 233);
+  position:relative;
+  display: block;
+  font-size: inherit;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   
 }
+h4 {
+  color:rosybrown;
+  position: absolute;
+  display: none;
+}
+
+p{
+  color:#00ffff;
+  position:absolute;
+  display:relative;
+}
+ 
+li{
+  color: orange;
+  position:relative;
+
+}
+nav{
+  color:pink
+}
+
+ul{
   
+  position:relative;
+}
+button:hover {
+  color: blue;
+}
+a:visited { color: purple; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
