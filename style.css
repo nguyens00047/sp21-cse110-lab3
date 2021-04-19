@@ -5,3 +5,17 @@
   border-width: thick;
   border-color: rgb(0,100,0);
 }
+
+h1{
+  text-align: center;
+  color: red;
+  margin: auto;
+  text-decoration: underline;
+  text-emphasis: filled red;
+  max-width: 150px;
+  max-height: 150px;
+  border: dashed red;
+  padding: 1em;
+}
+  
+  
