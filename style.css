@@ -1,1 +1,7 @@
-
+#to-do-list{
+  text-align: center; /* centers text*/
+  color: green;
+  border-style: solid;
+  border-width: thick;
+  border-color: rgb(0,100,0);
+}
