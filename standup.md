@@ -17,7 +17,8 @@ Goals for the day:
   - Start solving issues
 
 Accomplished: 
-  - Wrote out template for Stand Up Notes
+  - Wrote out template for Stand up Notes
+  - Wrote one entry for Stand up notes
 
 Next Task: 
   - Work on incorporating CSS into code
